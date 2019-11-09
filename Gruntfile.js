@@ -16,7 +16,7 @@ module.exports = (grunt) => {
           }
         },
         banner:
-          '/*! p5.js v<%= pkg.version %> <%= grunt.template.today("mmmm dd, yyyy") %> */ '
+          '/*! jellicent v<%= pkg.version %> <%= grunt.template.today("mmmm dd, yyyy") %> */ '
       },
       dist: {
         files: {

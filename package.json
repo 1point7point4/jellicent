@@ -2,7 +2,7 @@
   "name": "jellicent",
   "version": "1.0.0",
   "description": "A pointless *ahem* pointfree FP library.",
-  "main": "./source/index.js",
+  "main": "./lib/jellicent.js",
   "scripts": {
     "build": "grunt build",
     "test": "grunt"

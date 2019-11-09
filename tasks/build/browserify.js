@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask(
     'browserify',
-    'Compile the p5.js source with Browserify',
+    'Compile the source with Browserify',
     function(mode) {
       const filename = filenames[mode] || "jellicent.js";
 
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 
       // Invoke Browserify programatically to bundle the code
       let browserified = browserify(srcFilePath, {
-        standalone: 'p5'
+        standalone: 'jellicent'
       });
 
       if (mode === "min") {
