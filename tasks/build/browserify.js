@@ -34,11 +34,15 @@ module.exports = function(grunt) {
 
       // Invoke Browserify programatically to bundle the code
       let browserified = browserify(srcFilePath, {
-        standalone: 'jellicent'
+
+        /* If no module system is being used, define the module as a global
+          variable 'jellicent'.
+        */
+        standalone: "jellicent"
       });
 
       if (mode === "min") {
-        browserified = browserified.exclude('../../docs/reference/data.json');
+        browserified = browserified.exclude("../../docs/reference/data.json");
       }
 
       const babelifyOpts = { plugins: ['static-fs'] };
