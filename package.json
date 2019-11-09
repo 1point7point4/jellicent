@@ -1,0 +1,34 @@
+{
+  "name": "jellicent",
+  "version": "1.0.0",
+  "description": "A pointless *ahem* pointfree FP library.",
+  "main": "./source/index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1point7point4/jellicent.git"
+  },
+  "keywords": [
+    "pointless",
+    "ahem",
+    "pointfree",
+    "fp",
+    "library",
+    "curry",
+    "modular",
+    "util",
+    "utility",
+    "utils",
+    "utilities",
+    "other-spellings-of-utilities",
+    "please-add-more-keywords-at-the-git-repo"
+  ],
+  "author": "1point7point4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1point7point4/jellicent/issues"
+  },
+  "homepage": "https://github.com/1point7point4/jellicent#readme"
+}
